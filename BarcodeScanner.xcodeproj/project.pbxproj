@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5BA37E5A2D0C9BD700F8A249 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BA37E592D0C9BD700F8A249 /* Info.plist */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		5BA37E592D0C9BD700F8A249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BC0714A2D0C7A7B00D792F2 /* BarcodeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarcodeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +37,7 @@
 		5BC071412D0C7A7B00D792F2 = {
 			isa = PBXGroup;
 			children = (
+				5BA37E592D0C9BD700F8A249 /* Info.plist */,
 				5BC0714C2D0C7A7B00D792F2 /* BarcodeScanner */,
 				5BC0714B2D0C7A7B00D792F2 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA37E5A2D0C9BD700F8A249 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
